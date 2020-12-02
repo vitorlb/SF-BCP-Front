@@ -26,6 +26,10 @@ html {
 .navbar{
   margin-bottom: 0px !important;
 }
+
+.navbar-collapse.collapse{
+  display: inline-block !important;
+}
 main {
   margin: 0px 10px;
   padding-bottom: 30px;
