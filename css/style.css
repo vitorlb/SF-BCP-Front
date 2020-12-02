@@ -72,7 +72,7 @@ body {
 /**/
 @media (min-width: 1200px){
 .container {
-    max-width: 2000px !important;
+    max-width: 3000px !important;
     width: auto !important;
 
 }
