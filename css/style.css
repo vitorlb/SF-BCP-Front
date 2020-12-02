@@ -23,7 +23,9 @@ html {
   border-bottom: 1px;
 }
 
-
+.navbar{
+  margin-bottom: 0px !important;
+}
 main {
   margin: 0px 10px;
   padding-bottom: 30px;
@@ -80,7 +82,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 10vh;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 50px 0px;
   min-width: 1100px;
 }
 
