@@ -66,6 +66,13 @@ body {
   min-height: calc(100vh - 2 * 4vw);
 }
 /**/
+@media (min-width: 1200px){
+.container {
+    max-width: 2000px !important;
+    width: auto !important;
+
+}
+}
 
 .container {
   /* max-width: 120rem;*/
