@@ -27,7 +27,8 @@ html {
   margin-bottom: 0px !important;
 }
 
-.navbar-collapse.collapse{
+.info{
+  min-height: 8rem;
   
 }
 main {
@@ -58,9 +59,18 @@ main {
     width: 6rem;
   }
 }
+table{
+ width: 90% !important;
+ min-height: 10rem;
+}
+
+.table-header{
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
 
 .cancel{
-  margin-left: 5rem !important;
+  margin-left: 2rem !important;
 }
 
 body {
@@ -77,16 +87,25 @@ body {
 @media (min-width: 1200px){
 .container {
     max-width: 3000px !important;
-    width: auto !important;
-    
+    width: auto !important; 
 
 }
 }
 
+
+@media (min-width: 576px){
+  .container
+ {
+  max-width: 3000px !important;
+  min-width: 600px !important;
+  
+}
+}
 @media (min-width: 992px){
 .container {
 max-width: 3000px !important;
 width:auto!important;
+
 }
 }
 
@@ -142,6 +161,11 @@ width:auto!important;
 .btn {
   padding: 1.3rem 3rem;
   font-size: 1.2rem;
+}
+.btn-next{
+  position :relative;
+  float: right;
+  margin-right:2rem! important;
 }
 .btn svg {
   height: 2rem;

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--Datetime picker-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src=" https://momentjs.com/downloads/moment.min.js"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Issue with navigation after adding the style below style-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/stylebf.css" />
+    <!-- <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" /> -->
+
+    <!-- <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.css"
+      rel="stylesheet"
+      media="screen"
+    /> -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css"
+      rel="stylesheet"
+      media="screen"
+    />
+
+    <title>SalesForce backup</title>
+  </head>
+
+  <body>
+    <!-- <nav
+      class="navbar sticky-top navbar-light bg-light justify-content-between"
+    >
+      <img src="img/logo.png" alt="Salesforce backup" class="header__logo" />
+      <a class="navbar-brand"></a>
+      <form class="form-inline search">
+        <input
+          class="form-control mr-sm-2 search__field"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+
+        <button class="btn my-2 my-sm-0" type="submit">
+          <svg class="search__icon text-white">
+            <use href="img/icons.svg#icon-magnifying-glass"></use>
+          </svg>
+        </button>
+      </form>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo01"> -->
+      <img src="img/logo.png" alt="Salesforce backup" class="header__logo" />
+      <a class="navbar-brand" href="#">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"
+            >Create New Case <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Existing Cases</a>
+        </li>
+      </ul>
+      <form class="form-inline search">
+        <input
+          class="form-control mr-sm-4 search__field"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+      </form>
+      <!-- </div> -->
+    </nav>
+
+    <main>
+      <div class="container">
+        <div class="stage">
+          <h3>Create Case</h3>
+        </div>
+        <div class="section">
+          <p>Information</p>
+        </div>
+
+        <div class="row info" style="position: relative">
+          <div class="col-md-6" >
+            <div class="testbox">
+              <form class="details needs-validation" novalidate action="/">
+                <div class="item">
+                  <p>Contact Name: <b>Melisa Henderson</b></p>
+                </div>
+              </form>
+              <!--Validation-->
+            </div>
+          </div>
+          <div class="col-md-6"></div>
+        </div>
+
+        <div class="stage">
+          <h4 class="table-header">Select a Legal Entity</h4>
+        </div>
+       
+          
+                     
+          <center>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Company Name</th>
+                <th scope="col">Account Number</th>
+                <th scope="col">Country</th>
+                <th scope="col">City</th>
+                <th scope="col">Street</th>
+                <th scope="col">Operational Customer Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="highlight">
+                <td >Orange</th>
+                <td>12412353467346</td>
+                <td>Poland</td>
+                <td>Warsaw</td>
+                <td>BOX 2182</td>
+                <td>Orange</td>
+              </tr>
+              
+            </tbody>
+          </table>
+        
+        </center>
+     
+
+        <div class="row">
+          <div class="col-sm-8 col-md-2 ">
+            <button class="btn btn-primary cancel" type="submit">Cancel</button>
+          </div>
+          <div
+            class="col-sm-2 col-md-3  col-lg-2 offset-lg-8 offset-md-7 offset-sm-1"
+          >
+            <button class="btn btn-primary btn-next" type="submit" style="width: 75px">
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
