@@ -28,7 +28,7 @@ html {
 }
 
 .navbar-collapse.collapse{
-  display: inline-block !important;
+  
 }
 main {
   margin: 0px 10px;
@@ -77,6 +77,10 @@ body {
 
 }
 }
+
+
+
+
 
 .container {
   /* max-width: 120rem;*/

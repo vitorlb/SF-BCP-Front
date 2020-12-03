@@ -1,0 +1,16 @@
+.navbar-collapse.collapse {
+  /* all: initial; */
+  /* overflow: visible !important; */
+}
+.container {
+  /* background-color: green; */
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse.collapse {
+    display: inline-flex !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+}
