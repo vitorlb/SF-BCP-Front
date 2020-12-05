@@ -64,7 +64,7 @@ main {
 }
 table{
  width: 90% !important;
- min-height: 10rem;
+ /* min-height: 10rem; */
 }
 
 .table-header{
